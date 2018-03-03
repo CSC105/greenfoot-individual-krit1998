@@ -27,6 +27,7 @@ public class Fruit extends Actor
            Counter counter = world.getCounter();
            counter.addScore();
            myWorld.removeObject(this);
+           Greenfoot.playSound("eat.wav");
         }
     
     }
